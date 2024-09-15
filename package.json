@@ -1,11 +1,22 @@
 {
-  "name": "node-best-path",
+  "name": "Node-Best-Path",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "app.js",
+  "repository": "https://github.com/DulshanSiriwardhana/Node-Best-Path.git",
+  "author": "T.D Rasindu Dulshan Siriwardhana <85836178+DulshanSiriwardhana@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
   },
-  "author": "Siriwardhana T.D.R.D",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
 }
